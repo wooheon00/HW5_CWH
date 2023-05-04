@@ -1,6 +1,6 @@
 import csv
 
-f = open("202303_Seoul_Subway.csv")
+f = open("q4.csv")
 data = csv.reader(f)
 
 head = next(data)
