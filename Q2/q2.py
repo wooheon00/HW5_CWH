@@ -30,7 +30,7 @@ for row in data:
 f.close()
 
 if __name__ == '__main__':
-    print("*** Annual Temperature Report for Seoul in 2022")
+    print("*** Annual Temperature Report for Seoul in 2022 ***")
     print("Day with the Largest Temperature Variation: {}".format(h_date))
     print("Maximum Temperature Difference: {} Celsius".format(highest_diff))
     print("Day with the Smallest Temperature Variation: {}".format(l_date))

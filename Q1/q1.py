@@ -27,7 +27,7 @@ for row in data:
     count += 1
 
 if __name__ == '__main__':
-    print("*** Annual Temperature Report for Seoul in 2022")
+    print("*** Annual Temperature Report for Seoul in 2022 ***")
     print("Average Temperature: {0:.2f} Celsius".format(average_sum/count))
     print("Average Minimum Temperature: {0:.2f} Celsius".format(highest_sum/count))
     print("Average Maximum Temperature: {0:.2f} Celsius".format(lowest_sum/count))
